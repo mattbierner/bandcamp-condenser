@@ -1,0 +1,25 @@
+{
+  "name": "bandcamp-condenser",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbierner/bandcamp-condenser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbierner/bandcamp-condenser/issues"
+  },
+  "homepage": "https://github.com/mattbierner/bandcamp-condenser#readme",
+  "dependencies": {
+    "bandcamp-scraper": "^1.1.1",
+    "p-map": "^1.1.1"
+  }
+}
