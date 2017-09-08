@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mattbierner/bandcamp-condenser#readme",
   "dependencies": {
-    "bandcamp-scraper": "^1.1.1",
+    "bandcamp-scraper": "^1.2.0",
     "p-map": "^1.1.1"
   }
 }

@@ -86,7 +86,7 @@ const getAlbum = (url, retry = 3) =>
 const getAlbumsWithTag = (tag, allAlbums) =>
     new Promise(resolve =>
         (function loop(page, retry = 3) {
-            bandcamp.tag({ tag, page }, (error, searchResults) => {
+            bandcamp.getAlbumsWithTag({ tag, page }, (error, searchResults) => {
                 if (error) {
                     console.error(error)
                     resolve(allAlbums)
